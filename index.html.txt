@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Mauu 💗</title>
+
+  <!-- Aesthetic font -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- SECTION 1 -->
+    <section class="card fade">
+      <img class="gif" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="cat">
+      <p class="text">
+        <strong>Heyyy Mauu 🐱💗</strong><br><br>
+        I made something new…<br>
+        I hope avdel tula 😭<br><br>
+        Just scroll slowlyy 🐾✨
+      </p>
+
+      <div class="next-hint" onclick="goNext(1)">
+        come closer 🐾
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="card fade">
+      <img class="gif" src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="cat">
+      <p class="text">
+        It’s been long…<br>
+        <strong>5 years of friendship 🧿</strong><br>
+        <strong>and 3 years of relationship 💗</strong><br><br>
+
+        Every meet, every moment<br>
+        felt special to both of us 🫂<br><br>
+
+        Thodishi bhandana,<br>
+        thodasa rusva–fugva…<br><br>
+
+        I think which is healthy<br>
+        to build our bond more strong 🫶🏻
+      </p>
+
+      <div class="next-hint" onclick="goNext(2)">
+        keep scrolling… 🤍
+      </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="card fade">
+      <img class="gif" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="cat">
+      <p class="text">
+        It all started from <strong>your proposal</strong>…<br>
+        hats off to your confidence 😂💗<br><br>
+
+        Joke aside…<br>
+        but promising you one thing 🥹<br><br>
+
+        <strong>Your decision will never make you regret ❤️</strong>
+      </p>
+
+      <div class="next-hint" onclick="goNext(3)">
+        just one more thing ✨
+      </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="card fade center">
+      <p class="text big-soft">
+        Even though you’re my GF…
+      </p>
+
+      <p id="bigQuestion" class="big-text hidden">
+        WILL YOU BE MY VALENTINE?? 🥹💗
+      </p>
+
+      <img id="finalGif" class="gif hidden"
+        src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="cat">
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
